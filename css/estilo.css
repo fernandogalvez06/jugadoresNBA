@@ -1,26 +1,50 @@
+/*Colocamos una imagen de fondo al 'body' de nuestras páginas*/
 
-/* Hacemos que el 'body' tenga una imagen de fondo*/
+body {
 
-body{
-background-size:cover; /*Que la imagen ocupe toda la página*/
-/*Añadimos transparencia a la imagen de fondo*/
-background-image: linear-gradient(to bottom, rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.9) 100%), url(../figuras/fondo.jpeg);
+
+ background-image: url("../figuras/fondo.jpeg);	
+ background-color: #000;
 }
 
-/* Definimos la clase 'center' para las tablas*/
+/*Creamos la clase 'center' de forma que podamos centrar, por ejemplo, las tablas de nuestras páginas*/
+
+.center{
+
+	margin-left: auto;
+	margin-right: auto;
+}
 
 
-table.center {
-    margin-left:auto; 
-    margin-right:auto;
-  }
+/*Le damos formato a los encabezados H1*/
+h1 {
+  font-weight: bold;
+  text-align: center;  
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #fff;
+  
+}
 
-/* Establecemos el formato para h2, h3, h4 y p */
+h2 {
 
-h1 {color:white}
-h2 {color:lightblue}
-h3 {color:green;}
-h4 {color:blue;}
-p {color:white; font-size:14pt; font-family:"Times new roman",sans-serif;}
+
+}
+
+/*Le damos formato a los pies de imagen*/
+figcaption {
+
+  text-align: center;
+}
+
+
+/*Le damos formato a las imágenes*/
+img {
+  
+  display: block;
+  width: 20px;
+  height: 20px;
+
+}
+
 
 
